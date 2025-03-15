@@ -153,3 +153,6 @@ Session Title: Building Intelligent APIs: Flask API with Azure OpenAI
 ---
 
 This demo script is designed to cover 20 minutes and provide a comprehensive walkthrough for Sreelekha’s session on “Flask API with Azure OpenAI.” Feel free to adjust the timings, add your own examples, or integrate live coding to match your presentation style. Happy presenting!
+
+
+[Watch our Channel Dot Net Learners House](https://www.youtube.com/@dotnetlearnershouse7615)
