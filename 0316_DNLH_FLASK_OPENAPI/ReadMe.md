@@ -1,5 +1,12 @@
 # 📢 Dot Net Learners House Meetup – Monthly Event - Mar 2025
 
+## Date Time: 16-Mar-2025 at 09:00 AM IST
+
+## Event URL: [https://www.meetup.com/dot-net-learners-house-hyderabad/events/304750920](https://www.meetup.com/dot-net-learners-house-hyderabad/events/304750920)
+
+## YouTube URL: [https://www.youtube.com/watch?v=rrZqYt2YDFM](https://www.youtube.com/watch?v=rrZqYt2YDFM)
+
+
 
 ![Information | 100x100](./Documentation/Images/Information.PNG)
 
@@ -30,8 +37,8 @@ Session Title: Building Intelligent APIs: Flask API with Azure OpenAI
 
 ### [Section 1: System Architecture Overview – 4 Minutes]
 
-1. Present the Architectural Diagram:  
-   - Display your diagram (using draw.io, Lucidchart, or Mermaid) that shows:  
+1. the Architectural Diagram of the System :  
+     ![System Architecture | 100x100](./Documentation/Images/SystemArchitecture.jpg)
      - Frontend (React UI) – The user interface (even if it’s not the focus today).  
      - Flask API (Backend) – The core engine handling requests.  
      - Azure OpenAI Service – The service generating AI responses.  
@@ -154,5 +161,3 @@ Session Title: Building Intelligent APIs: Flask API with Azure OpenAI
 
 This demo script is designed to cover 20 minutes and provide a comprehensive walkthrough for Sreelekha’s session on “Flask API with Azure OpenAI.” Feel free to adjust the timings, add your own examples, or integrate live coding to match your presentation style. Happy presenting!
 
-
-[Watch the video](https://www.youtube.com/watch?v=rrZqYt2YDFM)
