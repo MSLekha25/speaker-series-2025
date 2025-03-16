@@ -13,11 +13,7 @@
 ![Seat Belt | 100x100](./Documentation/Images/SeatBelt.PNG)
 
 
-Below is a 20‑minute demo script for Sreelekha’s session on building a Flask API with Azure OpenAI. This script outlines key talking points, code walkthroughs, and a live demo that she can further customize.
-
----
-
-## Demo Script for Sreelekha  
+ 
 Session Title: Building Intelligent APIs: Flask API with Azure OpenAI
 
 ---
