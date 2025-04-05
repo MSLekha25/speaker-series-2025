@@ -22,6 +22,10 @@ Session Title: Building Intelligent APIs: Flask API with Azure OpenAI
 
 1. Greeting & Session Overview:  
    - “Good morning, everyone! I’m Mucharla Sreelekha, and today I’ll show you how to build an intelligent Flask API that interacts with Azure OpenAI.”  
+
+   "Imagine a world where applications understand and respond to users just like a human assistant.
+    Think of ChatGPT, but embedded seamlessly into your own applications. Sounds exciting, right?"
+
    - “In the next 20 minutes, we’ll explore our project’s architecture, dive into the core code, and see a live demo where we send a sample prompt to our API.”
 
 2. Session Objectives:  
