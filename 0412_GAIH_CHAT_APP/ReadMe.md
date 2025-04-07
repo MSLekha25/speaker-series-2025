@@ -41,10 +41,10 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
       "Before we jump into the code, let’s first understand how the system works together. Let’s take a look at our architecture."
 
    - Components of Our System:
-         1. Frontend (React UI) – The user interface (optional for today’s focus).
-         2. Flask API (Backend Engine) – Handles client requests.
-         3. Azure OpenAI Service – Processes requests and generates intelligent responses.
-         4. Authentication & Logging (Optional Enhancements) – Ensuring security & monitoring. 
+     1. Frontend (React UI) – The user interface (optional for today’s focus).
+     2. Flask API (Backend Engine) – Handles client requests.
+     3. Azure OpenAI Service – Processes requests and generates intelligent responses.
+     4. Authentication & Logging (Optional Enhancements) – Ensuring security & monitoring. 
 
       ![Architectural Diagram | 100x100](./Documentation/Images/ArchitecturalDiagram.jpg)
      
