@@ -166,7 +166,7 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
                                   -Headers @{"Content-Type"="application/json"} `
                                   -Body '{"prompt": "What is an Orange"}'
      
-     
+
    - The resulting output :
          "An orange is a citrus fruit known for its sweet, tangy flavor and high vitamin C content."
 
@@ -178,7 +178,7 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
 3. Key Points:  
    - Security: API keys and config are safely managed via environment variables.
 
-  - Scalability: Though synchronous now, this setup provides a solid base for enhancements like streaming responses or frontend integration.
+   - Scalability: Though synchronous now, this setup provides a solid base for enhancements like streaming responses or frontend integration.
 
 ---
 
