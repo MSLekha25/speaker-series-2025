@@ -41,17 +41,17 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
       "Before we jump into the code, let’s first understand how the system works together. Let’s take a look at our architecture."
 
    - Components of Our System:
-     1. Frontend (React UI) – The user interface (optional for today’s focus).
-     2. Flask API (Backend Engine) – Handles client requests.
-     3. Azure OpenAI Service – Processes requests and generates intelligent responses.
-     4. Authentication & Logging (Optional Enhancements) – Ensuring security & monitoring. 
+         1. Frontend (React UI) – The user interface (optional for today’s focus).
+         2. Flask API (Backend Engine) – Handles client requests.
+         3. Azure OpenAI Service – Processes requests and generates intelligent responses.
+         4. Authentication & Logging (Optional Enhancements) – Ensuring security & monitoring. 
 
       ![Architectural Diagram | 100x100](./Documentation/Images/ArchitecturalDiagram.jpg)
      
   
 2. Describing the Interaction Flow:  
 
-   - How Everything Connects:
+    - How Everything Connects:
         "When a user inputs a prompt into our system, here’s what happens:"
 
          1. The React UI (or any client) sends a request to our Flask API.
@@ -70,22 +70,22 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
 1. Project Structure Overview:  
    - Show the directory layout:
      
-     flask-react-aoai-completions/
-     │── docs/
-     │── src/
-     │   ├── backend/
-     │   │   ├── api/
-     │   │   │   ├── home_routes.py
-     │   │   │   ├── completions_routes.py
-     │   │   ├── services/
-     │   │   │   ├── azure_openai_service.py
-     │   │   ├── utils/
-     │   │   │   ├── env_config.py
-     │   │   │   ├── error_handling.py
-     │   │   │   ├── logging_config.py
-     │   │   ├── app.py
-     │── .env
-     │── README.md
+               flask-react-aoai-completions/
+               │── docs/
+               │── src/
+               │   ├── backend/
+               │   │   ├── api/
+               │   │   │   ├── home_routes.py
+               │   │   │   ├── completions_routes.py
+               │   │   ├── services/
+               │   │   │   ├── azure_openai_service.py
+               │   │   ├── utils/
+               │   │   │   ├── env_config.py
+               │   │   │   ├── error_handling.py
+               │   │   │   ├── logging_config.py
+               │   │   ├── app.py
+               │── .env
+               │── README.md
      
 
 2. Flask API Initialization (app.py):  
@@ -114,26 +114,26 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
    - Core Function – Azure OpenAI Call:
 
      
-     def fetch_openai_response(prompt):
-         chat_prompt = [
-             {"role": "system", "content": "You are an AI assistant that helps people find information."},
-             {"role": "user", "content": prompt}
-         ]
-         try:
-             response = client.chat.completions.create(
-                 model=deployment_name,
-                 messages=chat_prompt,
-                 max_tokens=800,
-                 temperature=0.7,
-                 top_p=0.95,
-                 frequency_penalty=0,
-                 presence_penalty=0,
-                 stop=None,
-                 stream=False
-             )
-             return response.choices[0].message.content
-         except Exception as e:
-             return f"Error: {str(e)}"
+               def fetch_openai_response(prompt):
+                  chat_prompt = [
+                        {"role": "system", "content": "You are an AI assistant that helps people find information."},
+                        {"role": "user", "content": prompt}
+                  ]
+                  try:
+                        response = client.chat.completions.create(
+                             model=deployment_name,
+                             messages=chat_prompt,
+                             max_tokens=800,
+                             temperature=0.7,
+                             top_p=0.95,
+                             frequency_penalty=0,
+                             presence_penalty=0,
+                             stop=None,
+                             stream=False
+                        )
+                        return response.choices[0].message.content
+                  except Exception as e:
+                        return f"Error: {str(e)}"
 
      
    - This function builds a chat prompt, sends it to the Azure OpenAI API, and returns the assistant’s response. It wraps the API interaction and error handling into a reusable, clean interface.
