@@ -41,10 +41,10 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
       "Before we jump into the code, let’s first understand how the system works together. Let’s take a look at our architecture."
 
    - Components of Our System:
-         1. Frontend (React UI) – The user interface (optional for today’s focus).
-         2. Flask API (Backend Engine) – Handles client requests.
-         3. Azure OpenAI Service – Processes requests and generates intelligent responses.
-         4. Authentication & Logging (Optional Enhancements) – Ensuring security & monitoring. 
+     1. Frontend (React UI) – The user interface (optional for today’s focus).
+     2. Flask API (Backend Engine) – Handles client requests.
+     3. Azure OpenAI Service – Processes requests and generates intelligent responses.
+     4. Authentication & Logging (Optional Enhancements) – Ensuring security & monitoring. 
 
       ![Architectural Diagram | 100x100](./Documentation/Images/ArchitecturalDiagram.jpg)
      
@@ -68,7 +68,7 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
 ### [ Section 2: Code Walkthrough ]
 
 1. Project Structure Overview:  
-   - Show the directory layout:
+   - The directory layout:
      
                flask-react-aoai-completions/
                │── docs/
@@ -141,11 +141,11 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
   
 4. API Route for Completions (completions_routes.py):  
    
-     @completions_api_bp.route("/completions", methods=["POST"])
-     def generate_completion():
-         data = request.get_json()
-         prompt = data.get("prompt", "")
-         return Response(fetch_openai_response(prompt), content_type="text/plain")
+                @completions_api_bp.route("/completions", methods=["POST"])
+                def generate_completion():
+                    data = request.get_json()
+                    prompt = data.get("prompt", "")
+                    return Response(fetch_openai_response(prompt), content_type="text/plain")
      
    - This route handles POST requests to /completions. It extracts the prompt from the incoming JSON payload and returns the AI-generated response as plain text.
 
@@ -160,10 +160,10 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
 2. Test the API with PowerShell:  
    - “Let’s test the API using the following PowerShell command:”
      powershell
-     Invoke-RestMethod -Uri "http://127.0.0.1:5009/api/completions" `
-                       -Method POST `
-                       -Headers @{"Content-Type"="application/json"} `
-                       -Body '{"prompt": "What is an Orange"}'
+                Invoke-RestMethod -Uri "http://127.0.0.1:5009/api/completions" `
+                                  -Method POST `
+                                  -Headers @{"Content-Type"="application/json"} `
+                                  -Body '{"prompt": "What is an Orange"}'
      
    - The resulting output :
          "An orange is a citrus fruit known for its sweet, tangy flavor and high vitamin C content."
