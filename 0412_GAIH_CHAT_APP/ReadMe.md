@@ -159,11 +159,13 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
 
 2. Test the API with PowerShell:  
    - “Let’s test the API using the following PowerShell command:”
-     powershell
+     
+
                 Invoke-RestMethod -Uri "http://127.0.0.1:5009/api/completions" `
                                   -Method POST `
                                   -Headers @{"Content-Type"="application/json"} `
                                   -Body '{"prompt": "What is an Orange"}'
+     
      
    - The resulting output :
          "An orange is a citrus fruit known for its sweet, tangy flavor and high vitamin C content."
