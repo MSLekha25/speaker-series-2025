@@ -51,7 +51,7 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
   
 2. Describing the Interaction Flow:  
 
-    # How Everything Connects:
+    - How Everything Connects:
         "When a user inputs a prompt into our system, here’s what happens:"
 
          1. The React UI (or any client) sends a request to our Flask API.
