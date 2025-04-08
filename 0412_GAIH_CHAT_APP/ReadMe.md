@@ -200,7 +200,7 @@ Session Title: Chat App - Azure OpenAI, Flask, React.js, and Tailwind CSS
    - "The world is moving towards AI-powered applications, and today, you’ve taken a big step towards building one!"
 
 
-"I hope this session has given you valuable insights into integrating Azure OpenAI with Flask. Feel free to reach out for questions, and let’s continue building intelligent solutions together!"
+"I hope this session has given you valuable insights into integrating Azure OpenAI with Flask. Feel free to reach out for questions, and let’s continue building intelligent solutions together!!"
 
 Thank you all for joining!!!
 
