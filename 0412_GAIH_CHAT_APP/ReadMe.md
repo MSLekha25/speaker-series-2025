@@ -5,6 +5,11 @@
 ## Event URL: [https://www.meetup.com/global-ai-hyderabad/events/306095644](https://www.meetup.com/global-ai-hyderabad/events/306095644)
 
 
+![Event Banner | 100x100](./Documentation/Images/EventBanner.jpg)
+
+![M V P | 100x100](./Documentation/Images/MVP.jpg)
+
+
 
 ![Information | 100x100](./Documentation/Images/Information.PNG)
 
